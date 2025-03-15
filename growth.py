@@ -6,7 +6,7 @@ from io import BytesIO
 st.set_page_config (page_title="data sweeper", layout='wide')
 
 #custom css
-st.markdowm(
+st.markdown(
     '''
     <style>
     .stapp{
