@@ -42,6 +42,7 @@ if uploaded_files:
 #files details
 st.write("preview the head of the data frame")
 st.dataframe(df.head())
+uploaded_files = st.file_uploader("Upload your files (accepts CSV or Excel):", type=["csv", "xlsx"], accept_multiple_files=True)
 
 #data cleaning
 st.subheader("data cleaning options")
